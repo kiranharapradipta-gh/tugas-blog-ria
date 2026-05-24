@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog 5W + 1H Mariana Manullang</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #f4f7fb;
+      color: #1e293b;
+      line-height: 1.8;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      max-width: 800px;
+      margin: auto;
+      color: #cbd5e1;
+      font-size: 1.1rem;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 35px;
+    }
+
+    .socials a {
+      text-decoration: none;
+      background: white;
+      color: #0f172a;
+      padding: 14px 22px;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: 0.3s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .socials a:hover {
+      transform: translateY(-5px);
+      background: #e2e8f0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 60px 0;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      margin-bottom: 80px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      text-decoration: none;
+      color: inherit;
+      transition: 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      border: 1px solid #e2e8f0;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    }
+
+    .card h2 {
+      margin-bottom: 15px;
+      color: #0f172a;
+    }
+
+    .card p {
+      color: #475569;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 50px;
+      padding: 50px;
+      border-radius: 25px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+      border: 1px solid #e2e8f0;
+    }
+
+    section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 25px;
+      color: #0f172a;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 10px;
+    }
+
+    section p {
+      margin-bottom: 25px;
+      text-align: justify;
+      color: #334155;
+      font-size: 1.05rem;
+    }
+
+    footer {
+      background: #0f172a;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 35px 20px;
+      margin-top: 50px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      section {
+        padding: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Blog Mariana Manullang</h1>
+    <p>
+      Perjalanan akademik dan kehidupan saya dalam tampilan blog profesional yang elegan dan modern.
+    </p>
+
+    <div class="socials">
+      <a target="_blank" href="https://web.facebook.com/rianayyya">
+        <i class="fab fa-facebook"></i>
+        Facebook
+      </a>
+
+      <a target="_blank" href="https://wa.me/6285834183740">
+        <i class="fab fa-whatsapp"></i>
+        WhatsApp
+      </a>
+
+      <a target="_blank" href="mailto:marianamanullang94@gmail.com?subject=Halo Mariana&body=Halo, saya ingin menghubungi Anda">
+        <i class="fas fa-envelope"></i>
+        Email
+      </a>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <!-- HALAMAN UTAMA -->
+    <div class="cards">
+
+      <a href="#who" class="card">
+        <h2>Who</h2>
+        <p>Mengenal saya sebagai mahasiswi aktif Universitas Medan Area.</p>
+      </a>
+
+      <a href="#where" class="card">
+        <h2>Where</h2>
+        <p>Lingkungan tempat tinggal yang menjadi bagian penting dalam perjalanan hidup.</p>
+      </a>
+
+      <a href="#when" class="card">
+        <h2>When</h2>
+        <p>Awal perjalanan akademik dimulai sejak stambuk 2023.</p>
+      </a>
+
+      <a href="#why" class="card">
+        <h2>Why</h2>
+        <p>Alasan memilih Universitas Medan Area sebagai tempat menempuh pendidikan.</p>
+      </a>
+
+      <a href="#what" class="card">
+        <h2>What</h2>
+        <p>Tujuan utama dalam menjalani dunia perkuliahan.</p>
+      </a>
+
+      <a href="#how" class="card">
+        <h2>How</h2>
+        <p>Kondisi saat ini yang sudah mendekati tahap penyusunan skripsi.</p>
+      </a>
+
+    </div>
+
+    <!-- WHO -->
+    <section id="who">
+      <h2>Who — Saya</h2>
+
+      <p>
+        Saya adalah seorang mahasiswi Universitas Medan Area yang memulai perjalanan akademiknya pada tahun 2023. Sebagai mahasiswa aktif, saya memiliki semangat tinggi dalam menjalani pendidikan serta keinginan untuk terus berkembang dalam berbagai bidang ilmu pengetahuan.
+      </p>
+
+      <p>
+        Kehidupan perkuliahan memberikan banyak pengalaman baru yang membantu saya menjadi pribadi yang lebih mandiri, bertanggung jawab, dan mampu beradaptasi dengan lingkungan akademik maupun sosial. Proses tersebut menjadi bagian penting dalam membangun masa depan yang lebih baik.
+      </p>
+    </section>
+
+    <!-- WHERE -->
+    <section id="where">
+      <h2>Where — Alamat dan Lingkungan</h2>
+
+      <p>
+        Saya berasal dari Jl. Padang Sidempuan, Aek Horsik, Kecamatan Badiri, Kabupaten Tapanuli Tengah, Sumatera Utara, Indonesia. Lingkungan tempat tinggal tersebut memberikan banyak pengalaman hidup yang penuh nilai kebersamaan dan budaya lokal.
+      </p>
+
+      <p>
+        Kehidupan masyarakat di daerah tersebut dikenal hangat dan menjunjung tinggi nilai kekeluargaan. Dari lingkungan inilah saya tumbuh menjadi pribadi yang memiliki motivasi tinggi untuk mengejar pendidikan dan meraih cita-cita di masa depan.
+      </p>
+    </section>
+
+    <!-- WHEN -->
+    <section id="when">
+      <h2>When — Awal Perjalanan Akademik</h2>
+
+      <p>
+        Tahun 2023 menjadi awal perjalanan saya sebagai mahasiswa Universitas Medan Area. Memasuki dunia perkuliahan merupakan langkah besar yang membawa banyak tantangan sekaligus peluang untuk berkembang.
+      </p>
+
+      <p>
+        Seiring berjalannya waktu, pengalaman selama kuliah memberikan banyak pembelajaran berharga. Setiap semester membantu meningkatkan kemampuan berpikir kritis, tanggung jawab, dan keterampilan dalam menghadapi dunia akademik.
+      </p>
+    </section>
+
+    <!-- WHY -->
+    <section id="why">
+      <h2>Why — Alasan Memilih Kampus</h2>
+
+      <p>
+        Saya memilih Universitas Medan Area karena dikenal sebagai salah satu kampus swasta terbaik di Sumatera Utara. Reputasi kampus yang baik menjadi alasan utama dalam menentukan pilihan pendidikan tinggi.
+      </p>
+
+      <p>
+        Selain kualitas pendidikan yang baik, lingkungan akademik yang nyaman dan fasilitas kampus yang memadai juga menjadi faktor penting. Semua itu memberikan keyakinan bahwa pendidikan yang dijalani akan mendukung masa depan yang lebih cerah.
+      </p>
+    </section>
+
+    <!-- WHAT -->
+    <section id="what">
+      <h2>What — Tujuan Menempuh Pendidikan</h2>
+
+      <p>
+        Tujuan utama saya menempuh pendidikan adalah untuk menambah pengetahuan dan memperluas wawasan. Dunia perkuliahan menjadi tempat untuk mempelajari banyak hal baru yang berguna bagi kehidupan dan masa depan.
+      </p>
+
+      <p>
+        Selain itu, saya juga ingin memperluas relasi dan membangun hubungan dengan banyak orang dari berbagai latar belakang. Namun tujuan paling utama adalah memperoleh gelar pendidikan sebagai bukti pencapaian akademik.
+      </p>
+    </section>
+
+    <!-- HOW -->
+    <section id="how">
+      <h2>How — Kondisi Saat Ini</h2>
+
+      <p>
+        Saat ini saya telah berada pada tahap akhir perkuliahan dan mendekati proses penyusunan skripsi. Tahap ini menjadi salah satu proses paling penting dalam perjalanan akademik.
+      </p>
+
+      <p>
+        Walaupun menghadapi berbagai tantangan, Saya tetap berusaha menyelesaikan seluruh proses pendidikan dengan baik. Pengalaman selama kuliah menjadi bekal penting dalam menghadapi tahap akhir hingga berhasil meraih gelar yang diinginkan.
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Mariana Manullang — Blog Akademik Profesional</p>
+    <p>Dibuat dengan konsep elegan modern menggunakan metode 5W + 1H.</p>
+  </footer>
+
+  <script>
+    console.log('Blog Mariana Manullang berhasil dijalankan');
+  </script>
+
+</body>
+</html>
